@@ -2,6 +2,7 @@
 	color: white;
 }
 body {
+	background-image: url("../img/bg.jpg");
 	background-color: black;
 }
 
@@ -12,6 +13,13 @@ body {
 #HeaderContent {
 	padding: 11.5px;
 	background-color: #272d35;
+}
+
+#content {
+	background-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 100%;
 }
 
 footer {
