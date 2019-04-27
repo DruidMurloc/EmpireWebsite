@@ -1,28 +1,43 @@
 * {
-	color: white;
-}
-body {
-	background-image: url("../img/bg.jpg");
-	background-color: black;
+	box-sizing: border-box;
+	text-align: center;
 }
 
-#HeaderImg {
+#headerImg {
 	float: left;
 }
 
-#HeaderContent {
-	padding: 11.5px;
+#headerContent {
 	background-color: #272d35;
+	color: white;
+	padding: 12px;
 }
 
 #content {
-	background-color: black;
-	margin-left: 10%;
-	margin-right: 10%;
-	height: 100%;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#sideContent {
+	background-color: blue;
+	width: 35%;
+    float: left;
+    border: 5px solid black;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#mainContent {
+	background-color: yellow;
+	float: left;
+	width: 65%;
+	padding-left: 4px;
+    padding-right: 4px;
+    border: 5px solid red;
 }
 
 footer {
+	color: white;
 	padding: 3px;
 	position: fixed;
 	left: 0;
