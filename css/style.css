@@ -1,63 +1,69 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-body {  
-  background-image: url("../img/background.jpg");
+html {
+	background-image: url("../img/background.png");
 }
 
 h1, h2 {
-  text-align: center;
+	text-align: center;
 }
 
 p {
-  text-align: justify;
-  font-family:Helvetica;
+	text-align: justify;
+	font-family: Helvetica;
 }
 
 #headerImg {
-  float: left;
-  margin-left: 75px;
+	float: left;
+	margin-left: 75px;
 }
 
 #headerContent {
-  margin-left: 70px;
-  margin-right: 70px;
-  background-color: #272d35;
-  color: white;
-  padding: 12px;
+	margin-left: 70px;
+	margin-right: 70px;
+	background-color: #272d35;
+	color: white;
+	padding: 12px;
 }
 
 #content {
-  margin-left: 70px;
-  margin-right: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 #sideContent {
-  background-color: #d43d2c;
-  width: 35%;
-  float: left;
-  border: 5px solid #272d35;
-  padding-left: 4px;
-  padding-right: 4px;
+	background-color: #d43d2c;
+	width: 35%;
+	float: left;
+	border: 5px solid #272d35;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 #mainContent {
-  background-color: #d42222;
-  float: left;
-  width: 65%;
-  padding-left: 4px;
-  padding-right: 4px;
-  border: 5px solid #272d35;
+	background-color: #d42222;
+	float: left;
+	width: 65%;
+	padding-left: 4px;
+	padding-right: 4px;
+	border: 5px solid #272d35;
+}
+
+#contentImg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
-  color: white;
-  padding: 3px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #272d35;
-  text-align: center;
+	color: white;
+	padding: 3px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #272d35;
+	text-align: center;
 }
