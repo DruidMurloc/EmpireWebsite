@@ -12,13 +12,17 @@ h1, h2 {
 
 p {
   text-align: justify;
+  font-family:Helvetica;
 }
 
 #headerImg {
   float: left;
+  margin-left: 75px;
 }
 
 #headerContent {
+  margin-left: 70px;
+  margin-right: 70px;
   background-color: #272d35;
   color: white;
   padding: 12px;
@@ -39,7 +43,7 @@ p {
 }
 
 #mainContent {
-  background-color: yellow;
+  background-color: #d42222;
   float: left;
   width: 65%;
   padding-left: 4px;
