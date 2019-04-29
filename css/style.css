@@ -102,6 +102,6 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: black;
+	background-color: hsl(0, 78%, 20%);
 	text-align: center;
 }
