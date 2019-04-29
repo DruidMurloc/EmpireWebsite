@@ -11,6 +11,8 @@ html, body {
 
 #content h1, #content h2 {
 	text-align: center;
+	background-color: #d42222;
+	width: 100%;
 }
 
 p {
@@ -61,28 +63,30 @@ a:hover {
 }
 
 #content {
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 15%;
+	margin-right: 15%;
 	min-height: 100%;
 }
 
 #sideContent {
-	background-color: #d42222;
+	background-color: black;
+	color: white;
 	width: 35%;
 	float: left;
-	border: 5px solid #272d35;
+	border: 5px solid #d42222;
 	padding-left: 10px;
 	padding-right: 10px;
 	min-height: 100%;
 }
 
 #mainContent {
-	background-color: #d42222;
+	background-color: black;
+	color: white;
 	float: right;
 	width: 65%;
 	padding-left: 10px;
 	padding-right: 10px;
-	border: 5px solid #272d35;
+	border: 5px solid #d42222;
 }
 
 #content img {
