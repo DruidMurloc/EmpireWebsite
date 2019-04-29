@@ -49,15 +49,15 @@ p {
 	text-decoration: none;
 }
 
-a:link {
+#headerMenu a:link {
 	color: white;
 }
 
-a:visited {
+#headerMenu a:visited {
 	color: white;
 }
 
-a:hover {
+#headerMenu a:hover {
 	color: white;
 	background-color: #d42222;
 }
@@ -65,7 +65,6 @@ a:hover {
 #content {
 	margin-left: 15%;
 	margin-right: 15%;
-	min-height: 100%;
 }
 
 #sideContent {
@@ -96,12 +95,33 @@ a:hover {
 }
 
 footer {
+	display: block;
 	color: white;
 	padding: 5px;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: hsl(0, 78%, 20%);
+	background-color: #5B0B0B;
 	text-align: center;
+}
+
+footer a {
+	padding-left: 6px;
+	padding-right: 6px;
+	text-decoration: none;
+}
+
+footer a:link {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	border: 1px solid white;
+	color: white;
+	background-color: black;
 }
